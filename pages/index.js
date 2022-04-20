@@ -26,7 +26,7 @@ export default function Home({listMusic}) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch(`http://localhost:3000/api/hello`, {
+  const res = await fetch(`https://svg-bug.vercel.app/api/hello`, {
       headers: { Accept: "application/json" },
   })
   const listMusic = await res.json()
