@@ -6,3 +6,9 @@ export function hideSvg(index) {
     icon.style.display = "none"
     console.log("click")
 }
+
+export default function myScripts() {
+    return (
+        <></>
+    )
+}
